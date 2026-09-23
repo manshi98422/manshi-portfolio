@@ -713,14 +713,18 @@ function App() {
           <div className="flex gap-3 mt-6">
 
             <a
-              href="#"
+              href="https://vercel.com/manshi98422"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex-1 text-center bg-cyan-500 text-slate-900 py-2 rounded-lg font-semibold hover:bg-cyan-400 transition"
             >
               Live Demo
             </a>
 
             <a
-              href="#"
+              href="href=https://github.com/manshi98422/manshi-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex-1 text-center border border-slate-600 py-2 rounded-lg hover:border-cyan-400 hover:text-cyan-400 transition"
             >
               GitHub
