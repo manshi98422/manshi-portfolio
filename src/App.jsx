@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { FaLinkedinIn, FaGithub, FaPhone } from "react-icons/fa";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -186,7 +187,7 @@ function App() {
 
   <div>
     <h3 className="text-4xl font-bold text-cyan-400">
-      4+
+      6+
     </h3>
     <p className="text-slate-400 mt-2 uppercase text-sm">
       Months Experience
@@ -196,7 +197,7 @@ function App() {
 
   <div>
     <h3 className="text-4xl font-bold text-cyan-400">
-      7+
+      4+
     </h3>
     <p className="text-slate-400 mt-2 uppercase text-sm">
       Projects Completed
@@ -243,26 +244,30 @@ function App() {
     Connect With Me
   </p>
 
-  <a
-    href="#"
-    className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 transition"
-  >
-    in
-  </a>
+ <a
+  href="https://www.linkedin.com/in/manshishrivastava/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 hover:text-cyan-400 transition"
+>
+  <FaLinkedinIn />
+</a>
 
-  <a
-    href="#"
-    className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 transition"
-  >
-    ●
-  </a>
+<a
+  href= "https://github.com/manshi98422"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 hover:text-cyan-400 transition"
+>
+  <FaGithub />
+</a>
 
-  <a
-    href="tel:+910000000000"
-    className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 transition"
-  >
-    ☎
-  </a>
+<a
+  href="tel:+91 9695784308"
+  className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 hover:text-cyan-400 transition"
+>
+  <FaPhone />
+</a>
 
 </div>
 
@@ -713,7 +718,7 @@ function App() {
           <div className="flex gap-3 mt-6">
 
             <a
-              href="https://vercel.com/manshi98422"
+              href="https://vercel.com/manshi98422/manshi-portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 text-center bg-cyan-500 text-slate-900 py-2 rounded-lg font-semibold hover:bg-cyan-400 transition"
@@ -1493,25 +1498,29 @@ function App() {
       <div className="flex gap-4">
 
         <a
-          href="#"
-          className="w-11 h-11 flex items-center justify-center rounded-full border border-slate-700 text-slate-300 hover:border-cyan-400 hover:text-cyan-400 transition"
-        >
-          in
-        </a>
+  href="https://www.linkedin.com/in/manshishrivastava/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 hover:text-cyan-400 transition"
+>
+  <FaLinkedinIn />
+</a>
 
-        <a
-          href="#"
-          className="w-11 h-11 flex items-center justify-center rounded-full border border-slate-700 text-slate-300 hover:border-cyan-400 hover:text-cyan-400 transition"
-        >
-          ●
-        </a>
+<a
+  href="https://github.com/manshi98422"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 hover:text-cyan-400 transition"
+>
+  <FaGithub />
+</a>
 
-        <a
-          href="#contact"
-          className="w-11 h-11 flex items-center justify-center rounded-full border border-slate-700 text-slate-300 hover:border-cyan-400 hover:text-cyan-400 transition"
-        >
-          ☎
-        </a>
+<a
+  href="tel:+919695784308"
+  className="w-12 h-12 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-600 text-xl hover:border-cyan-400 hover:text-cyan-400 transition"
+>
+  <FaPhone />
+</a>
 
       </div>
 
